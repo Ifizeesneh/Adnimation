@@ -1,3 +1,8 @@
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
 .banner{
   background-image: linear-gradient(to right,#1A1A1A,#121212,#0F0F0F,#131313, #141414 , #151515,#161616,#171717,#181818);
 }

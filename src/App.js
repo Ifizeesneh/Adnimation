@@ -20,11 +20,11 @@ function App() {
      <Banner />
     <Trusted />
     <Banner2 />
-    <Banner3 />
-    <Banner4 />
+    {/* <Banner3 /> */}
+    {/* <Banner4 /> */}
     <Services />
     <Contact />
-    <Footer />
+    {/* <Footer /> */}
     </div>
   );
 }

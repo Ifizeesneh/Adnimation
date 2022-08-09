@@ -4,12 +4,12 @@ export const Banner = () => {
   return (
     <div className="banner">
       <Container maxW="8xl">
-        <Flex py={"90px"} direction={["column", "column", "row", "row"]}>
+        <Flex py={"90px"} px="1rem" direction={["column", "column", "row", "row"]}>
           <Box w={["100%", "100%", "70%", "50%"]}>
             <Text
               color={"#FEFEFE"}
               fontSize={["22px", "22px", "22px", "36px"]}
-              lineHeight={0.9}
+              lineHeight={1.3}
               fontWeight={600}
               maxWidth="100%"
             >
@@ -20,10 +20,9 @@ export const Banner = () => {
               <br />
               <Text>
                 We support publishers with the knowledge, expertise and
-                assistance to run their Ad Operations.{" "}
+                assistance to run their Ad Operations, Site Monetization and yield management
               </Text>
               <br />
-              <Text>site monetization and yield management</Text>
             </Text>
           </Box>
           <Box w={["100%", "100%", "70%", "50%"]} ml={["0px","0px","12px","22px"]}
@@ -42,15 +41,17 @@ export const Banner = () => {
                 channels, third party revenue vendors and tech stacks
               </Text>
             </Text>
-            <Button bg="red"
-            borderRadius={"23px"}
-            color="#fff"
+            <Button
+            borderRadius={"10px"}
+            colorScheme="blue"
+
+            // color="#fff"
             width={["120px","","","190px"]}
             mt={["22px","22px","34px","30px"]}
-            fontSize={["","","","22px"]}
-            padding="30px"
-            ml={["0px","0px","244px","0px"]}
-            _hover={{bg:"transparent", border:"2px solid red", color:"red"}}
+            // fontSize={["","","","22px"]}
+            // padding="30px"
+            // ml={["0px","0px","244px","0px"]}
+            // _hover={{bg:"transparent", border:"2px solid red", color:"red"}}
             
             >Get Started</Button>
           </Box>

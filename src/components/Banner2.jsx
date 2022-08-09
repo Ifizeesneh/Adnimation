@@ -39,7 +39,7 @@ export const Banner2 = () => {
               Our programmatic preferred deals and programmatic guaranteed deals assure you of a higher eCPM. You may not need to have as many ads as you think. You are assured of about $1 - $4 CPMs.
               </Text>
             </Text>
-            <Button bg="red"
+            {/* <Button bg="red"
             borderRadius={"23px"}
             color="#fff"
             width={["120px","","","190px"]}
@@ -49,7 +49,7 @@ export const Banner2 = () => {
             ml={["0px","0px","244px","0px"]}
             _hover={{bg:"transparent", border:"2px solid red", color:"red"}}
             
-            >WATCH NOW</Button>
+            >WATCH NOW</Button> */}
           </Box>
         </Flex>
       </Container>

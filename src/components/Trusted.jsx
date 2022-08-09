@@ -17,7 +17,7 @@ export const Trusted = () => {
   return (
     <div style={{ padding: "50px" }}>
       <Flex justifyContent={"center"}>
-        <Heading fontWeight={800} fontSize="62px">
+        <Heading fontWeight={800} fontSize="42px">
           Trusted By
         </Heading>
       </Flex>
